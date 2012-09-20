@@ -11,7 +11,7 @@ Features
 --------
 Manage a single /etc/pound/pound.cfg configuration, add entries for HTTP listeners and their backends.
 
-TODO 
+Todo
 ----
 * Rework the module a bit to follow best practice
 * Add support for changing Global Directives (currently static defaults)
