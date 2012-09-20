@@ -22,11 +22,11 @@ Usage
     include pound 
     pound::entry {
         'test' :
-            listen_ip => '0.0.0.0',
+            listen_ip => '30.40.50.60',
             listen_port => '8888',
             listen_protocol => 'ListenHTTP',
-            head_require => 'HEADREQUIREEEEE',
-            backend_ip => '1.1.1.1',
+            head_require => '"Host:.*stuff.myserver.com.*"',
+            backend_ip => '13.14.15.16',
             backend_port => '9999'
     }
     pound::entry {
@@ -34,7 +34,7 @@ Usage
             listen_ip => '1.101.101.10',
             listen_port => '8828',
             listen_protocol => 'ListenHTTPS',
-            head_require => 'HEADREQUIREEEEE',
+            head_require => '"Host:.*www.myserver.com.*"',
             backend_ip => '14.14.14.14',
             backend_port => '9399'
     }
