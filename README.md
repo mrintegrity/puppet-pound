@@ -25,7 +25,7 @@ Usage
             listen_ip => '30.40.50.60',
             listen_port => '8888',
             listen_protocol => 'ListenHTTP',
-            head_require => '"Host:.*stuff.myserver.com.*"',
+            head_require => 'Host:.*stuff.myserver.com.*',
             backend_ip => '13.14.15.16',
             backend_port => '9999'
     }
@@ -34,7 +34,7 @@ Usage
             listen_ip => '1.101.101.10',
             listen_port => '8828',
             listen_protocol => 'ListenHTTPS',
-            head_require => '"Host:.*www.myserver.com.*"',
+            head_require => 'Host:.*www.myserver.com.*',
             backend_ip => '14.14.14.14',
             backend_port => '9399'
     }
