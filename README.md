@@ -3,7 +3,7 @@ Pound reverse proxy module
 
 Status
 ------
-This module is in a fairly basic state right now, this is my first attempt at writing a real puppet module so please review the code before you put it into action.
+This module is in a fairly basic state right now, this is my first attempt at writing a real puppet module so please review the code before you put it into action. My goal is to support all features of pound in as clean and reusable a way as possible. 
 
 Features
 --------
