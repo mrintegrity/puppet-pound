@@ -13,10 +13,10 @@
     "README.md": "f8cfab9be826534ec71229a399b5670e",
     "manifests/base.pp": "b9712938f9b5f71682ae9e009f219a17",
     "manifests/debian.pp": "e852e187ba567b311a7f51d09000f0a1",
-    "manifests/entry.pp": "cb531d354f99ec44604a0f9e30c680eb",
+    "manifests/entry.pp": "9a6265c4a511a8b5ba370fa4ce818f55",
     "manifests/init.pp": "0751c1d9929da7ace5c4b883d5143f59",
-    "templates/entry.cfg.erb": "b32555be7bed929ddb78092080ccca72",
-    "templates/header.cfg.erb": "bfa962406806d3e8a5c87ce8bf988c13"
+    "templates/entry.cfg.erb": "bf616664e65cd206563ee26164e480fa",
+    "templates/header.cfg.erb": "93e2de7f558e84a165cacdbe119a7e3b"
   },
   "dependencies": []
 }
