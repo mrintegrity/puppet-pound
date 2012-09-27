@@ -11,11 +11,11 @@
     ".project": "b019ba1ce0a8b19e33d72d853f4037bc",
     "Modulefile": "3853bfde9589c4a3b362a82e7d1b97c9",
     "README.md": "f8cfab9be826534ec71229a399b5670e",
-    "manifests/base.pp": "b9712938f9b5f71682ae9e009f219a17",
+    "manifests/base.pp": "00bb8adde1dfdf5f58e10b014c19952c",
     "manifests/debian.pp": "e852e187ba567b311a7f51d09000f0a1",
     "manifests/entry.pp": "9a6265c4a511a8b5ba370fa4ce818f55",
     "manifests/init.pp": "0751c1d9929da7ace5c4b883d5143f59",
-    "templates/entry.cfg.erb": "bf616664e65cd206563ee26164e480fa",
+    "templates/entry.cfg.erb": "e2207899de140b9ee0ec25d9b3f9e352",
     "templates/header.cfg.erb": "93e2de7f558e84a165cacdbe119a7e3b"
   },
   "dependencies": []

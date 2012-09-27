@@ -30,10 +30,10 @@ class pound::base {
             content => template('pound/header.cfg.erb'),
             order => 01,
     }
-    concat::fragment {
-        'pound_footer' :
-        target => '/etc/pound/pound.cfg',
-        content => "END\n",
-        order => 40,
-    }
+#    concat::fragment {
+#        'pound_footer' :
+#        target => '/etc/pound/pound.cfg',
+#        content => "END\n",
+#        order => 40,
+#    }
 }
