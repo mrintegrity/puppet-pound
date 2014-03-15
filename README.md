@@ -21,7 +21,6 @@ Usage
 -----
 ``` puppet
 #node.pp
-    include pound 
     pound::entry {
         'test' :
             listen_ip => '30.40.50.60',

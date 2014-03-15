@@ -6,6 +6,7 @@ define pound::entry ($listen_ip,
     $backend_ip,
     $backend_port) {
 
+    include pound
 
     concat::fragment {
         "pound_entry-${name}" :
