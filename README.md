@@ -21,24 +21,36 @@ Usage
 -----
 ``` puppet
 #node.pp
-    include pound 
     pound::entry {
         'test' :
             listen_ip => '30.40.50.60',
             listen_port => '8888',
             listen_protocol => 'ListenHTTP',
-            head_require => 'Host:.*stuff.myserver.com.*',
-            backend_ip => '13.14.15.16',
-            backend_port => '9999'
+    }
+    pound::entry {
+        'test' :
+            listen_ip => '0.0.0.0',
+            listen_port => '8000',
+            listen_protocol => 'ListenHTTP',
+            head_require => 'Host:.*files.myserver.com.*',
+            service => true,
+            backend => [ {
+              ip => '127.0.0.1',
+              port => '9999'
+            },
+            {
+              ip => '127.0.0.2',
+              port => '9998'
+            }, ],
     }
     pound::entry {
         'test2' :
-            listen_ip => '1.101.101.10',
-            listen_port => '8828',
-            listen_protocol => 'ListenHTTPS',
-            head_require => 'Host:.*www.myserver.com.*',
-            backend_ip => '14.14.14.14',
-            backend_port => '9399'
+            service => true,
+            head_require => 'Host:.*share.myserver.com.*',
+            backend => [ {
+              ip => '14.14.14.14',
+              port => '9399'
+            }, ],
     }
 ```
 Copyright
