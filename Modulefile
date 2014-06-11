@@ -1,5 +1,5 @@
 name 'pupppet-pound'
-version '0.1'
+version '0.1.0'
 
 author 'Alan McGinlay'
 license 'GPLv3 or later'
