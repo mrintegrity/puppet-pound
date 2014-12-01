@@ -6,7 +6,7 @@
   "project_page": "https://github.com/mrintegrity/puppet-pound",
   "source": "",
   "summary": "",
-  "version": "0.1",
+  "version": "0.1.0",
   "checksums": {
     ".project": "b019ba1ce0a8b19e33d72d853f4037bc",
     "Modulefile": "3853bfde9589c4a3b362a82e7d1b97c9",
