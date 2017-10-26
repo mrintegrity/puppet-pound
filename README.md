@@ -3,9 +3,7 @@ Pound reverse proxy module
 
 Status
 ------
-This module is in a fairly basic state right now, this is my first attempt at writing a real puppet module so please review the code before you put it into action. My goal is to support all features of pound in as clean and reusable a way as possible. 
-
-Puppet-pound is heavilly inspired by the [CampToCamp bind] [1] module.
+Puppet-pound is inspired by the [CampToCamp bind] [1] module.
 
 Features
 --------
@@ -13,9 +11,8 @@ Manage a single /etc/pound/pound.cfg configuration, add entries for HTTP listene
 
 Todo
 ----
-* Rework the module a bit to follow best practice
 * Add support for changing Global Directives (currently static defaults)
-* Some kind of support for managing the service with the poundctl command might be good to have (maybe even essential)
+* Some kind of support for managing the service with the poundctl
 
 Usage
 -----
